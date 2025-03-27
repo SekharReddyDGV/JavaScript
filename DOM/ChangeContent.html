@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Change Content</title>
+    </head>
+    <body>
+        <h2>Library</h2>
+        <p>Dom is a Structure</p>
+        <button onclick="Change()">Next</button>
+        <script>
+           function Change(){
+            var HeadingTag = document.querySelector("h2");
+            var ParaElement = document.querySelector("p");
+            var Btun = document.querySelector("button");
+
+            HeadingTag.innerText="Collection of Objects,Functions and Classes";
+            ParaElement.innerText="DOM is tree kind of a structure where all DOM elements arranged in sequencce";
+            Btun.innerText="Previous";
+
+           }
+        </script>
+    </body>
+</html>

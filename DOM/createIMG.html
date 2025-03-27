@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create Image</title>
+    </head>
+    <body>
+        <p id="Para">Create Image In Dom Concept</p>
+        <button id="Button" onclick="crtimg()"> clickhere</button>
+        <script>
+            var button = document.getElementById("Button");
+            function crtimg(){
+                var Image = document.createElement("img");
+                // Image.src="https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg"
+                Image.setAttribute( "src","https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg");
+                Image.getAttribute("button");
+                button.append(Image);
+
+            }
+        </script>
+
+    </body>
+</html>

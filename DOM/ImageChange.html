@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Switch to Images</title>
+    </head>
+    <body>
+        <h3>Switch B/w The Two Images</h3>
+        <img src="D:\MERN QT\HTML\Dream Company PPT\vision2.jpg" alt="Display Image Part" id="SampleImage" width="400px" height="300px"> <br>
+        
+        <button onclick="ImgChg()"> Glob</button>
+        <button onclick="ImgChg2()">AI</button>
+
+        <script>
+            function ImgChg(){
+                var FirstImage = document.getElementById("SampleImage");
+                FirstImage.src="https://static2.bigstockphoto.com/7/9/4/large1500/49710851.jpg";
+            }
+            function ImgChg2(){
+                var SecondImage = document.getElementById("SampleImage");
+                SecondImage.src="https://itbrief.com.au/uploads/story/2023/11/27/img-d320oqYWscvU8q8HLX0brOyX.webp";
+            }
+        </script>
+
+    </body>
+</html>

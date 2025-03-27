@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Using Drop Down List</title>
+    </head>
+    <body>
+        <p>Change The Font Size</p>
+        <select name="FontSizes" id="DropDown">
+            <option onchange="ChangeFont" value="FontSizes">10</option>
+            <option onchange="ChangeFont" value="FontSizes">20</option>
+            <option onchange="ChangeFont" value="FontSizes">30</option>
+            <option onchange="ChangeFont" value="FontSizes">40</option>
+            <option onchange="ChangeFont" value="FontSizes">50</option>
+        </select>
+        <script>
+            function ChangeFont(){
+                var DropELement=document.querySelectorAll("p");
+                // DropElement.style.Font
+
+            }
+        </script>
+
+    </body>
+
+</html>

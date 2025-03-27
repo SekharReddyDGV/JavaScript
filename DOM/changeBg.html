@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Background Color</title>
+    </head>
+    <body id="WebPage" >
+        <h2 >Click to Change The Background Color Of Web Page</h2>
+        <button onclick="BgmChg()" ondblclick="BgmChg2()" >click to Change</button>
+
+        <script>
+            function BgmChg(){
+                var BdyDomElement1= document.getElementById("WebPage");
+                BdyDomElement1.style.backgroundColor="red";
+                BdyDomElement1.style.color="White"
+        }
+        function BgmChg2(){
+                var BdyDomElement1= document.getElementById("WebPage");
+                BdyDomElement1.style.backgroundColor="green";
+                BdyDomElement1.style.color="black"
+        }
+
+        </script>
+    </body>
+</html>
